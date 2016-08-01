@@ -42,5 +42,3 @@ def main():
         final_data.append(page_data)
     with open("truth_data.json", 'w') as outfile:
         json.dump(sum(final_data,[]), outfile)
-
-main()
